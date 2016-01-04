@@ -1,0 +1,8 @@
+node_modules/
+bower_components/
+src/main/resources/coverage/
+.sass-cache/
+.idea/
+src/main/resources/.tmp/
+src/main/resources/static/
+target/

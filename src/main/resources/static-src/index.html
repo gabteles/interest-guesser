@@ -1,0 +1,41 @@
+<!doctype html>
+<html ng-app="interestGuesser">
+  <head>
+    <meta charset="utf-8">
+    <title>Interest Guesser</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <base href="/">
+    
+    <!-- build:css(src/main/resources/{.tmp/serve,static-src}) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css(src/main/resources/{.tmp/serve,static-src}) styles/app.css -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- endbuild -->
+  </head>
+  <body layout="row">
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div flex ui-view layout="row"></div>
+
+    <!-- build:js(src/main/resources/static-src) scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js(src/main/resources/{.tmp/serve,.tmp/partials,static-src}) scripts/app.js -->
+    <!-- inject:js -->
+    <!-- endinject -->
+
+    <!-- inject:partials -->
+    <!-- endinject -->
+    <!-- endbuild -->
+
+  </body>
+</html>

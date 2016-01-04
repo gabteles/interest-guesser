@@ -1,0 +1,17 @@
+<div flex layout="row" layout-align="center center">
+	<div flex="40" class="md-whiteframe-4dp white-bg" layout-padding>
+		<form ng-submit="vm.login()">
+			<md-input-container class="md-block" flex-gt-sm>
+	        	<label>Email</label>
+	        	<input type="email" ng-model="vm.user.email">
+	      	</md-input-container>
+
+	      	<md-input-container class="md-block" flex-gt-sm>
+	            <label>Password</label>
+	            <input type="password" ng-model="vm.user.password">
+	      	</md-input-container>
+
+	      	<md-button type="submit" class="md-raised md-primary">Login</md-button>
+	    </form>
+	</div>
+</div>
